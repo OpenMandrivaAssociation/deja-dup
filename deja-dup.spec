@@ -1,5 +1,5 @@
 Name:		deja-dup
-Version:	47.0
+Version:	48.0
 Release:	1
 Summary:	Simple backup tool and front-end for duplicity
 Group:		Backup
