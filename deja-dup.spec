@@ -6,13 +6,14 @@ Group:		Backup
 License:	GPLv3+
 URL:		https://welcome.gnome.org/app/DejaDup/
 Source0:	https://gitlab.gnome.org/World/deja-dup/-/archive/%{version}/deja-dup-%{version}.tar.bz2
+BuildRequires: desktop-file-utils
 BuildRequires:	meson
 BuildRequires:	gettext
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	appstream-util
 BuildRequires:	pkgconfig(gtk4)
-BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-keyring-1)
 BuildRequires:	pkgconfig(goa-1.0)
 BuildRequires:	pkgconfig(libadwaita-1)
@@ -22,7 +23,7 @@ BuildRequires:	pkgconfig(libnautilus-extension-4)
 BuildRequires:	pkgconfig(libsecret-1)
 BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	pkgconfig(packagekit-glib2)
-BuildRequires:  pkgconfig(vapigen)
+BuildRequires: pkgconfig(vapigen)
 Requires:	duplicity
 Requires:	python-gobject3
 Requires:	adwaita-icon-theme
