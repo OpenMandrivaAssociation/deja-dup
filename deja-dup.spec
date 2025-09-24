@@ -12,6 +12,7 @@ BuildRequires:	gettext
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
 BuildRequires:	appstream-util
+BuildRequires: pkgconfig(blueprint-compiler)
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gnome-keyring-1)
